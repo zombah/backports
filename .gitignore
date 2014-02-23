@@ -16,3 +16,18 @@
 *.exe
 *.out
 *.app
+
+# Additionals
+kconf/mconf
+kconf/conf
+.tmp_versions
+*.cmd
+*.order
+*.mod.c
+Module.symvers
+.config
+.config.old
+.kernel_config_md5
+Kconfig.kernel
+Kconfig.versions
+backport-include/backport/autoconf.h
