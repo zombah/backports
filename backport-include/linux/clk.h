@@ -23,7 +23,7 @@
  * a nop export symbols when !CONFIG_COMMON_CLK since its
  * introduction on v2.6.16, but fixed until 3.6.
  */
-#if 0
+#if 1
 #define clk_enable LINUX_BACKPORT(clk_enable)
 static inline int clk_enable(struct clk *clk)
 {
