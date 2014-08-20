@@ -148,6 +148,7 @@ int sg_alloc_table_from_pages(struct sg_table *sgt,
 }
 EXPORT_SYMBOL_GPL(sg_alloc_table_from_pages);
 
+#if 0
 /* whoopsie ! */
 #ifndef CONFIG_COMMON_CLK
 int clk_enable(struct clk *clk)
@@ -160,4 +161,5 @@ void clk_disable(struct clk *clk)
 {
 }
 EXPORT_SYMBOL_GPL(clk_disable);
+#endif
 #endif
